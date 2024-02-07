@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Inter:wght@100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Kumbh+Sans:wght@100..900&family=Lexend+Deca:wght@100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla";
+  font-size: 16px;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  /* justify-content: center;
+  flex-direction: column; */
+  background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: grid;
+  border-radius: 7px;
+  background-color: white;
+  grid-template-columns: 50% 50%;
+  grid-template-areas: "a a" "b c";
+  overflow: hidden;
+  margin: 2rem 1rem;
+}
+
+.top-col {
+  grid-area: a;
+  height: 170px;
+  margin-top: 40px;
+  margin-left: 40px;
+  background-color: white;
+  width: 610px;
+}
+
+.heading1 {
+  color: hsl(179, 62%, 43%);
+}
+
+.p1 {
+  color: hsl(71, 73%, 54%);
+  font-weight: 900;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.p12 {
+  color: hsl(218, 22%, 67%);
+  font-size: 16px;
+  margin-top: 15px;
+}
+.p13 {
+  color: hsl(218, 22%, 67%);
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.left-col {
+  background-color: hsl(179, 62%, 43%);
+  height: 250px;
+  border-radius: 0 0 0 7px;
+}
+
+.heading2 {
+  margin-top: 40px;
+  margin-left: 40px;
+  color: white;
+}
+
+.p2 {
+  color: white;
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.price {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.p22 {
+  color: white;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.btn {
+  color: white;
+  margin-left: 40px;
+  margin-top: 30px;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  background-color: hsl(71, 73%, 54%);
+  border: 0.1px ridge black;
+}
+
+.right-col {
+  background-color: hsl(179, 62%, 63%);
+  height: 250px;
+  border-radius: 0 0 7px 0;
+}
+
+.heading3 {
+  margin-left: 40px;
+  margin-top: 40px;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+ul li {
+  color: white;
+  margin-left: 40px;
+  list-style: none;
+  line-height: 20px;
+}
+ul {
+  margin-top: 15px;
+}
+
+/* @media only screen and (max-width: 425px) {
+  .wrapper {
+    grid-template-columns: 50%;
+    grid-template-areas: "a" "b" "c";
+  }
+
+  .top-col {
+  }
+} */
